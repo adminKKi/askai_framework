@@ -11,7 +11,7 @@ class KaiImageWidget extends StatelessWidget {
     print(assetsImage + networkImage + 'asdasds');
     return FadeInImage.assetNetwork(
       placeholder: assetsImage != "" ? assetsImage : 'images/register_bg.png',
-      image: networkImage != "" ? networkImage : 'https://upload.jianshu.io/users/upload_avatars/7776337/31ec4585-f085-4af3-8abc-e44657057578?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96',
+      image: networkImage != "" ? networkImage : 'http://askaii.cn/myimg/register_bg.png',
       fit: BoxFit.cover,
       repeat: ImageRepeat.noRepeat,
       alignment: Alignment.center,
