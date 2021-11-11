@@ -2,6 +2,7 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
+export 'src/imageWidget.dart';
 
 class AskaiFramework {
   static const MethodChannel _channel =
